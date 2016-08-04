@@ -1,0 +1,47 @@
+body{background-color: #ffffcc;}
+textarea{resize:none;}
+a:hover{text-decoration: none;}
+.image-hover {
+  background-color: rgba(0, 0, 0, 0.043);
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15) inset;
+  margin-bottom: 10px;
+  padding: 15px;
+  overflow: hidden;
+}
+.image-hover:hover{background-color:green;}
+ .text_color a:hover{color:#ffffff;}
+.image-hover figure {
+  margin: 0;
+  position: relative;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.image-hover figure img {
+  max-width: 100%;
+  display: block;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.4s;
+  -moz-transition: -moz-transform 0.4s;
+  transition: transform 0.4s;
+}
+.image-hover figure .overlay {
+  display: block;
+  position: absolute;
+  z-index: 20;
+  background: rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  transition: all 0.8s;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+}
+.input-group {margin-bottom: 20px;}
+.login-page{border: 2px solid #ffffff;padding: 20px 20px; background-color: #ffffff;box-shadow: 10px 10px 5px #888888;}
+.prob:hover{color: #ffffff;}
